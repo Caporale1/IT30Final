@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9DRGZKCNJ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
@@ -22,63 +22,23 @@
     <h1>Nature Gallery</h1>
     <nav>
       <ul>
-        <li>
-          <a href="index.html"
-             onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Home'});">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="about.html"
-             onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'About'});">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="gallery.html"
-             onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Gallery'});">
-            Gallery
-          </a>
-        </li>
-        <li>
-          <a href="contact.html"
-             onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Contact'});">
-            Contact
-          </a>
-        </li>
-        <li>
-          <a href="affiliate.html"
-             onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Affiliates'});">
-            Affiliates
-          </a>
-        </li>
-        <li>
-          <a href="resources.html"
-             onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Resources'});">
-            Resources
-          </a>
-        </li>
+        <li><a href="index.html" onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Home'});">Home</a></li>
+        <li><a href="about.html" onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'About'});">About</a></li>
+        <li><a href="gallery.html" onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Gallery'});">Gallery</a></li>
+        <li><a href="contact.html" onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Contact'});">Contact</a></li>
+        <li><a href="affiliate.html" onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Affiliates'});">Affiliates</a></li>
+        <li><a href="resources.html" onclick="gtag('event','nav_click',{event_category:'navigation',event_label:'Resources'});">Resources</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section class="gallery-grid">
-      <a href="doublewaterfall.jpg.JPG" target="_blank">
-        <img src="doublewaterfall.jpg.JPG" alt="Double Waterfall" />
-      </a>
-      <a href="halfdome.jpg.JPG" target="_blank">
-        <img src="halfdome.jpg.JPG" alt="Half Dome" />
-      </a>
-      <a href="mountain.jpg.JPG" target="_blank">
-        <img src="mountain.jpg.JPG" alt="Yosemite Mountains" />
-      </a>
-      <a href="waterfall.jpg.JPG" target="_blank">
-        <img src="waterfall.jpg.JPG" alt="Waterfall" />
-      </a>
-      <a href="river.jpg.JPG" target="_blank">
-        <img src="river.jpg.JPG" alt="River" />
-      </a>
+      <a href="doublewaterfall.jpg.JPG" target="_blank"><img src="doublewaterfall.jpg.JPG" alt="Double Waterfall" /></a>
+      <a href="halfdome.jpg.JPG"       target="_blank"><img src="halfdome.jpg.JPG"       alt="Half Dome"         /></a>
+      <a href="mountain.jpg.JPG"       target="_blank"><img src="mountain.jpg.JPG"       alt="Yosemite Mountains" /></a>
+      <a href="waterfall.jpg.JPG"      target="_blank"><img src="waterfall.jpg.JPG"      alt="Waterfall"         /></a>
+      <a href="river.jpg.JPG"          target="_blank"><img src="river.jpg.JPG"          alt="River"             /></a>
     </section>
   </main>
 
@@ -91,17 +51,13 @@
     }
     .gallery-grid img {
       width: 100%;
-      height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .gallery-grid img:hover {
       transform: scale(1.05);
-      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    }
-    .gallery-grid a {
-      text-decoration: none;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.2);
     }
   </style>
 
@@ -112,3 +68,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
