@@ -17,6 +17,7 @@
 </head>
 <body>
   <div id="welcome-message"></div>
+  
   <header>
     <h1>Nature Gallery</h1>
     <nav>
@@ -63,4 +64,51 @@
 
   <main>
     <section class="gallery-grid">
-      <a href="doublewaterfall.jpg.JPG" target="_blank"><img src="_
+      <a href="doublewaterfall.jpg.JPG" target="_blank">
+        <img src="doublewaterfall.jpg.JPG" alt="Double Waterfall" />
+      </a>
+      <a href="halfdome.jpg.JPG" target="_blank">
+        <img src="halfdome.jpg.JPG" alt="Half Dome" />
+      </a>
+      <a href="mountain.jpg.JPG" target="_blank">
+        <img src="mountain.jpg.JPG" alt="Yosemite Mountains" />
+      </a>
+      <a href="waterfall.jpg.JPG" target="_blank">
+        <img src="waterfall.jpg.JPG" alt="Waterfall" />
+      </a>
+      <a href="river.jpg.JPG" target="_blank">
+        <img src="river.jpg.JPG" alt="River" />
+      </a>
+    </section>
+  </main>
+
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 20px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    .gallery-grid a {
+      text-decoration: none;
+    }
+  </style>
+
+  <footer>
+    <p>© 2025 Exploring Nature. IT030 Midterm.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
